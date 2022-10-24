@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/liamg/tml"
+	"github.com/aquasecurity/tml"
 )
 
 func main() {

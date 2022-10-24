@@ -1,4 +1,4 @@
-module github.com/liamg/tml
+module github.com/aquasecurity/tml
 
 go 1.12
 

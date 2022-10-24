@@ -1,7 +1,7 @@
 # tml - Terminal Markup Language
 
 [![Build Status](https://travis-ci.org/liamg/tml.svg "Travis CI status")](https://travis-ci.org/liamg/tml)
-[![GoDoc](https://godoc.org/github.com/liamg/tml?status.svg)](https://godoc.org/github.com/liamg/tml)
+[![GoDoc](https://godoc.org/github.com/aquasecurity/tml?status.svg)](https://godoc.org/github.com/aquasecurity/tml)
 
 A Go module (and standalone binary) to make the output of coloured/formatted text in the terminal easier and more readable.
 
@@ -16,7 +16,7 @@ The output of coloured/formatted text is easy using the following syntax:
 ```go
 package main
 
-import "github.com/liamg/tml"
+import "github.com/aquasecurity/tml"
 
 func main() {
     tml.Printf("<red>this text is <bold>red</bold></red> and the following is <green>%s</green>\n", "not red")
@@ -28,7 +28,7 @@ func main() {
 First, install tml:
 
 ```
-go get -u github.com/liamg/tml/tml
+go get -u github.com/aquasecurity/tml/tml
 ```
 
 Then you can simply pipe text containing tags to tml:

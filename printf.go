@@ -7,7 +7,7 @@ import (
 )
 
 // Printf works like fmt.Printf, but adds the option of using tags to apply colour or text formatting to the written text. For example "<red>some red text</red>".
-// A full list of tags is available here: https://github.com/liamg/tml
+// A full list of tags is available here: https://github.com/aquasecurity/tml
 func Printf(input string, a ...interface{}) error {
 	return Fprintf(os.Stdout, input, a...)
 }
